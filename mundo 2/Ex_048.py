@@ -26,6 +26,7 @@ while r != 5:
             print('Numeros salvos!\n')
             
         if r == 5:
+            print('finalizando...')
             break
     else:
         print('Digite um valor valido!\n')
