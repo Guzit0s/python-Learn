@@ -14,6 +14,7 @@ while c != 'N':
     else:
         print('Digite um genero valido!\n')
 
+    #isso aqui foi uma melhor desnecessaria, mas eu fiz mesmo assim.↓↓↓↓↓↓↓↓↓↓↓↓↓↓
     c = input('Deseja continuar?[S/N]: ').upper()
     if c != 'S' and c != 'N':
         print('Digite um valor valido!\n')
