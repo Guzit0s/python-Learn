@@ -22,7 +22,7 @@ while flag:
     #usuario [impar ou par] ganha
     if  chose == 1 and soma % 2 == 1 or chose == 2 and soma % 2 == 0:
         vitorias += 1
-        print('Você ganhou\nVamos para a proxima rodada!\n')
+        print(f'Você ganhou\no computador escolheu {pc}, a soma deu {soma}\nVamos para a proxima rodada!\n')
         os.system('pause') #"aprete qualquer tecla para continuar!" (isso é mto foda!)
         limpa_tela() #limpa o terminal!
 
